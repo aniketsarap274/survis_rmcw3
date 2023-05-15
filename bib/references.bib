@@ -1,14 +1,167 @@
-@article{Beck2016Visual,
-  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
-  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
-  doi = {10.1109/TVCG.2015.2467757},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
-  number = {01},
-  publisher = {IEEE},
-  volume = {22},
-  series = {TVCG},
-  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
-  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
-  year = {2016}
+
+
+@ARTICLE{1608529,
+  author={Xiaowei Chen and Xiaobo Zhou and Wong, S.T.C.},
+  journal={IEEE Transactions on Biomedical Engineering},
+  title={Automated segmentation, classification, and tracking of cancer cell nuclei in time-lapse microscopy},
+  year={2006},
+  volume={53},
+  number={4},
+  pages={762-766},
+  doi={10.1109/TBME.2006.870201}
+  abstract={Quantitative measurement of cell cycle progression in individual cells over time is important in understanding drug treatment effects on cancer cells. Recent advances in time-lapse fluorescence microscopy imaging have provided an important tool to study the cell cycle process under different conditions of perturbation. However, existing computational imaging methods are rather limited in analyzing and tracking such time-lapse datasets, and manual analysis is unreasonably time-consuming and subject to observer variances. This paper presents an automated system that integrates a series of advanced analysis methods to fill this gap. The cellular image analysis methods can be used to segment, classify, and track individual cells in a living cell population over a few days. Experimental results show that the proposed method is efficient and effective in cell tracking and phase identification},
+  keywords={type: research, type : quantitative, Image analysis, Phase identification, Time-lapse fluorescence microscopy, Tracking, Cellular population},
+
+}
+@Article{8546040,
+  author={Witmer, Adam and Bhanu, Bir},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  title={Multi-label Classification of Stem Cell Microscopy Images Using Deep Learning},
+  year={2018},
+  volume={},
+  number={},
+  pages={1408-1413},
+  doi={10.1109/ICPR.2018.8546040}
+  abstract = {This paper develops a pattern recognition and machine learning system to localize cell colony subtypes in multi-label, phase-contrast microscopy images. A convolutional neural network is trained to recognize homogeneous cell colonies, and is used in a sliding-window patch based testing method to localize these homogeneous cell types within heterogeneous, multi-label images. The method is used to determine the effects of nicotine on induced pluripotent stem cells expressing the Huntington's disease phenotype. The results of the network are compared to those of an ECOC classifier trained on texture features. The ability of the network to localize cell phenotypes within heterogeneous colonies is visualized and the temporal behavior of stem cells is analyzed.},
+  keywords={type:research,type:quantitative, type: qualitative, Stem cells, Microscopy images, Deep learning, Multi-label classification, Convolutional neural network },
+  number = {12},
+  }
+
+
+@Article{s22010206,
+    AUTHOR = {Witmer, Adam and Bhanu, Bir},
+    TITLE = {Generative Adversarial Networks for Morphological&ndash;Temporal Classification of Stem Cell Images},
+    JOURNAL = {Sensors},
+    VOLUME = {22},
+    YEAR = {2022},
+    NUMBER = {1},
+    ARTICLE-NUMBER = {206},
+    URL = {https://www.mdpi.com/1424-8220/22/1/206},
+    PubMedID = {35009749},
+    ISSN = {1424-8220},
+    DOI = {10.3390/s22010206},
+    ABSTRACT = {Frequently, neural network training involving biological images suffers from a lack of data, resulting in inefficient network learning. This issue stems from limitations in terms of time, resources, and difficulty in cellular experimentation and data collection. For example, when performing experimental analysis, it may be necessary for the researcher to use most of their data for testing, as opposed to model training. Therefore, the goal of this paper is to perform dataset augmentation using generative adversarial networks (GAN) to increase the classification accuracy of deep convolutional neural networks (CNN) trained on induced pluripotent stem cell microscopy images. The main challenges are: 1. modeling complex data using GAN and 2. training neural networks on augmented datasets that contain generated data. To address these challenges, a temporally constrained, hierarchical classification scheme that exploits domain knowledge is employed for model learning. First, image patches of cell colonies from gray-scale microscopy images are generated using GAN, and then these images are added to the real dataset and used to address class imbalances at multiple stages of training. Overall, a 2% increase in both true positive rate and F1-score is observed using this method as compared to a straightforward, imbalanced classification network, with some greater improvements on a classwise basis. This work demonstrates that synergistic model design involving domain knowledge is key for biological image analysis and improves model learning in high-throughput scenarios.},
+    keywords = {type:article, type : quantitative, dataset augmentation; deep learning; developmental toxicology; generative adversarial networks; stem cell biology },
+    number = {Null},
+}
+
+@ARTICLE{8827504,
+  author={Wang, Dali and Lu, Zheng and Xu, Yichi and Wang, Zi and Santella, Anthony and Bao, Zhirong},
+  journal={IEEE Access},
+  title={Cellular Structure Image Classification With Small Targeted Training Samples},
+  year={2019},
+  volume={7},
+  pages={148967-148974},
+  doi={10.1109/ACCESS.2019.2940161}
+  abstract = {Cell shapes provide crucial biological information on complex tissues. Different cell types often have distinct cell shapes, and collective shape changes usually indicate morphogenetic events and mechanisms. The identification and detection of collective cell shape changes in an extensive collection of 3D time-lapse images of complex tissues is an important step in assaying such mechanisms but is a tedious and time-consuming task. Machine learning provides new opportunities to automatically detect cell shape changes. However, it is challenging to generate sufficient training samples for pattern identification through deep learning because of a limited amount of images and annotations. We present a deep learning approach with minimal well-annotated training samples and apply it to identify multicellular rosettes from 3D live images of the Caenorhabditis elegans embryo with fluorescently labeled cell membranes. Our strategy is to combine two approaches, namely, feature transfer and generative adversarial networks (GANs), to boost image classification with small training samples. Specifically, we use a GAN framework and conduct an unsupervised training to capture the general characteristics of cell membrane images with 11,250 unlabelled images. We then transfer the structure of the GAN discriminator into a new Alex-style neural network for further learning with several dozen labeled samples. Our experiments showed that with 10-15 well-labeled rosette images and 30-40 randomly selected nonrosette images our approach can identify rosettes with more than 80% accuracy and capture more than 90% of the model accuracy achieved with a training data et that is five times larger. We also established a public benchmark dataset for rosette detection. This GAN-based transfer approach can be applied to the study of other cellular structures with minimal training samples.},
+  keywords = {type: research,type: qualitative, type: quantitative, Generative Adversarial Networks (GANs), stem cell images, Morphological-temporal classification, Markov chain stochastic processes },
+  number={},
+  }
+
+@article{8336085,
+  author={Lee, Gwo-Giun Chris and Haung, Kuan-Wei and Sun, Chi-Kuang and Liao, Yi-Hua},
+  booktitle={2017 International Conference on Orange Technologies (ICOT)},
+  title={Stem cell detection based on Convolutional Neural Network via third harmonic generation microscopy images},
+  year={2017},
+  volume={},
+  pages={45-48},
+  doi={10.1109/ICOT.2017.8336085}
+  abstract={Stem cell plays an important role in repairing destroyed tissues and keeping human healthy every day; and thus stem cell observation and detection are principle procedures before being analyzed by physicians. In this paper, we proposed a criterion of Computer-Aided Diagnosis (CAD) system to detect stem cells in the stratum basale based on cell segmentation algorithm and intrinsic characteristics of cells, which can provide consistent and accurate results for assisting the assessment of diagnosis. In addition, we utilize Convolutional Neural Networks (CNNs) to recognize basal cells and stem cells since CNN has excellent performance on processing abundant data. Actually, the procedure of acquiring biomedical images is too complicated to collect, hence hand-crafted initialization is adopted to overcome the issue of the lack of training data according to prior knowledge or the suggestion from medical doctors. The experimental results show that the accuracy of hand-crafted initialization is higher than random distribution kernels and the convergence time is shorter also since a better initial condition may lead to better results in optimization theory},
+  keywords={type: research, type: quantitative,type: qualitative, Stem cells, Computer-Aided Diagnosis (CAD) system, Convolutional Neural Networks (CNNs), Third Harmonic Generation Microscopy Images, Cell segmentation algorithm  },
+  number={},
+  }
+
+
+
+@ARTICLE{6588334,
+  author={Mualla, Firas and Schöll, Simon and Sommerfeldt, Björn and Maier, Andreas and Hornegger, Joachim},
+  journal={IEEE Transactions on Medical Imaging},
+  title={Automatic Cell Detection in Bright-Field Microscope Images Using SIFT, Random Forests, and Hierarchical Clustering},
+  year={2013},
+  volume={32},
+  number={12},
+  pages={2274-2286},
+  doi={10.1109/TMI.2013.2280380}
+  abstract={We present a novel machine learning-based system for unstained cell detection in bright-field microscope images. The system is fully automatic since it requires no manual parameter tuning. It is also highly invariant with respect to illumination conditions and to the size and orientation of cells. Images from two adherent cell lines and one suspension cell line were used in the evaluation for a total number of more than 3500 cells. Besides real images, simulated images were also used in the evaluation. The detection error was between approximately zero and 15.5% which is a significantly superior performance compared to baseline approaches.},
+  keywords={type: research, type: quantitative, Cell detection, SIFT, Random Forests, Hierarchical Clustering, Machine learning},
+  }
+
+@article{CHENG2022465,
+    title = {A review for cell and particle tracking on microscopy images using algorithms and deep learning technologies},
+    journal = {Biomedical Journal},
+    volume = {45},
+    number = {3},
+    pages = {465-471},
+    year = {2022},
+    issn = {2319-4170},
+    doi = {https://doi.org/10.1016/j.bj.2021.10.001},
+    url = {https://www.sciencedirect.com/science/article/pii/S2319417021001359},
+    author = {Hui-Jun Cheng and Ching-Hsien Hsu and Che-Lun Hung and Chun-Yuan Lin},
+    keywords = {type: research, type: quantitative, Microscopy images, Single cell tracking, Single particle tracking, Segmentation, Algorithms and deep learning},
+    abstract = {Time-lapse microscopy images generated by biological experiments have been widely used for observing target activities, such as the motion trajectories and survival states. Based on these observations, biologists can conclude experimental results or present new hypotheses for several biological applications, i.e. virus research or drug design. Many methods or tools have been proposed in the past to observe cell and particle activities, which are defined as single cell tracking and single particle tracking problems, by using algorithms and deep learning technologies. In this article, a review for these works is presented in order to summarize the past methods and research topics at first, then points out the problems raised by these works, and finally proposes future research directions. The contributions of this article will help researchers to understand past development trends and further propose innovative technologies.}
+    }
+
+@ARTICLE{7962189,
+  author={Liu, An-An and Lu, Yao and Chen, Mei and Su, Yu-Ting},
+  journal={IEEE Transactions on Big Data},
+  title={Mitosis Detection in Phase Contrast Microscopy Image Sequences of Stem Cell Populations: A Critical Review},
+  year={2017},
+  volume={3},
+  number={4},
+  pages={443-457},
+  doi={10.1109/TBDATA.2017.2721438}
+  abstract={Detecting mitosis from cell population is a fundamental problem in many biological researches and biomedical applications. In modern researches, advanced imaging technologies have been applied to generate large amount of microscopy images of cells. However, detecting all mitotic cells from these images with human eye is tedious and time-consuming. In recent years, several approaches have been proposed to help humans finish this job automatically with high efficiency and accuracy. In this review paper, we first described some commonly used datasets for mitosis detection, and then discussed different kinds of methods for mitosis detection, like tracking based methods, tracking free methods, hybrid methods, and the most recently proposed works based on deep learning architecture. We compared these methods on same datasets, and found that deep learning based approaches have achieved a great improvement in performance. At last, we discussed the future possible approaches on mitosis detection, to combine the success of previous works and the advantage of big data in modern researches. Considering expertise is highly required in biomedical area, we will further discuss the possibility to learn information from biomedical big data with less expert annotation.},
+  keywords={type: review, type: Mitosis detection, Computer vision, Biomedical image, Microscopy image, Stem cell},
+
+  }
+@article{10.1371/journal.pone.0080776,
+    doi = {10.1371/journal.pone.0080776},
+    author = {Paduano, Vincenzo AND Tagliaferri, Daniela AND Falco, Geppino AND Ceccarelli, Michele},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Automated Identification and Location Analysis of Marked Stem Cells Colonies in Optical Microscopy Images},
+    year = {2013},
+    month = {12},
+    volume = {8},
+    url = {https://doi.org/10.1371/journal.pone.0080776},
+    pages = {1-11},
+    abstract = {Embryonic stem cells (ESCs) are characterized by two remarkable peculiarities: the capacity to propagate as undifferentiated cells (self-renewal) and the ability to differentiate in ectoderm, endoderm, and mesoderm derivatives (pluripotency). Although the majority of ESCs divide without losing the pluripotency, it has become evident that ESC cultures consists of multiple cell populations highlighted by the expression of early germ lineage markers during spontaneous differentiation. Hence, the identification and characterization of ESCs subpopulations represents an efficient approach to improve the comprehension of correlation between gene expression and cell specification status. To study markers of ESCs heterogeneity, we developed an analysis pipeline which can automatically process images of stem cell colonies in optical microscopy. The question we try to address is to find out the statistically significant preferred locations of the marked cells. We tested our algorithm on a set of images of stem cell colonies to analyze the expression pattern of the Zscan4 gene, which was an elite candidate gene to be studied because it is specifically expressed in subpopulation of ESCs. To validate the proposed method we analyzed the behavior of control genes whose pattern had been associated to biological status such as differentiation (EndoA), pluripotency (Pou5f1), and pluripotency fluctuation (Nanog). We found that Zscan4 is not uniformly expressed inside a stem cell colony, and that it tends to be expressed towards the center of the colony, moreover cells expressing Zscan4 cluster each other. This is of significant importance because it allows us to hypothesize a biological status where the cells expressing Zscan4 are preferably associated to the inner of colonies suggesting pluripotent cell status features, and the clustering between themselves suggests either a colony paracrine effect or an early phase of cell specification through proliferation. Also, the analysis on the control genes showed that they behave as expected.},
+    keywords = {type:research, type: quantitative, Image analysis, Phase identification, Time-lapse fluorescence microscopy, Tracking, Cellular image analysis methods },
+    number = {12},
+    }
+
+@article{10.7717/peerj.14513,
+ title = {Future stem cell analysis: progress and challenges towards state-of-the art approaches in automated cells analysis},
+ author = {Mohamad Zamani, Nurul Syahira and Wan Zaki, Wan Mimi Diyana and Abd Hamid, Zariyantey and Baseri Huddin, Aqilah},
+ year = 2022,
+ month = dec,
+ keywords = {type: quantitative, Machine learning, Image processing, Artificial intelligence, Microscopic images},
+ abstract = {
+
+Background and Aims
+A microscopic image has been used in cell analysis for cell type identification and classification, cell counting and cell size measurement. Most previous research works are tedious, including detailed understanding and time-consuming. The scientists and researchers are seeking modern and automatic cell analysis approaches in line with the current in-demand technology.
+
+
+Objectives
+This article provides a brief overview of a general cell and specific stem cell analysis approaches from the history of cell discovery up to the state-of-the-art approaches.
+
+
+Methodology
+A content description of the literature study has been surveyed from specific manuscript databases using three review methods: manuscript identification, screening, and inclusion. This review methodology is based on Prism guidelines in searching for originality and novelty in studies concerning cell analysis.
+
+
+Results
+By analysing generic cell and specific stem cell analysis approaches, current technology offers tremendous potential in assisting medical experts in performing cell analysis using a method that is less laborious, cost-effective, and reduces error rates.
+
+
+Conclusion
+This review uncovers potential research gaps concerning generic cell and specific stem cell analysis. Thus, it could be a reference for developing automated cells analysis approaches using current technology such as artificial intelligence and deep learning.
+
+},
+ volume = 10,
+ pages = {e14513},
+ journal = {PeerJ},
+ issn = {2167-8359},
+ url = {https://doi.org/10.7717/peerj.14513},
+ doi = {10.7717/peerj.14513}
 }
